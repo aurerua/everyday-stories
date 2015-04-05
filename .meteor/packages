@@ -9,3 +9,5 @@ twbs:bootstrap
 aldeed:collection2
 aldeed:autoform
 momentjs:moment
+sacha:spin
+iron:router

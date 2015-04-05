@@ -1,0 +1,5 @@
+<template name="storySubmit">
+  <h1>New story</h1>
+  {{> quickForm collection="Stories" id="postStoryForm" type="insert"
+    omitFields="createdDate" buttonContent="Create"}}
+</template>

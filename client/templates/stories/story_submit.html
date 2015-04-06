@@ -1,5 +1,10 @@
 <template name="storySubmit">
-  <h1>New story</h1>
-  {{> quickForm collection="Stories" id="postStoryForm" type="insert"
-    omitFields="createdDate" buttonContent="Create"}}
+  <h1>Add your story</h1>
+    {{#autoForm collection="Stories" id="insertStoryForm" type="insert"}}
+    <fieldset>
+      {{> afQuickField name='author'}}
+      {{> afQuickField name='content' rows=6}}
+    </fieldset>
+    <button type="submit" class="btn btn-primary">Save</button>
+  {{/autoForm}}
 </template>

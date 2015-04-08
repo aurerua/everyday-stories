@@ -1,8 +1,8 @@
 var storyHooks = {
   formToDoc: function(doc) {
-      doc.createdDate = moment();
+      doc.submitted = new Date();
     return doc;
   }
-}
+};
 
 AutoForm.addHooks('insertStoryForm', storyHooks);

@@ -1,3 +1,6 @@
+// Because the date of the insert of a new story into the database is not set by
+// the user we use "storyHooks" to give a value to the "submitted"
+// key of a new story. 
 var storyHooks = {
   before: {
     insert: function(doc) {
@@ -7,8 +10,6 @@ var storyHooks = {
   }
 }
 
-/*AutoForm.addHooks('insertStoryForm', storyHooks);*/
-
 AutoForm.hooks({
- insertStoryForm: storyHooks
+  insertStoryForm: storyHooks
 });

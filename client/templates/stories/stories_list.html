@@ -1,8 +1,14 @@
 <template name="storiesList">
-  {{> storySubmit}} <!--the form to add a new story-->
-  <div class="stories">
-    {{#each stories}}
-      {{> storyItem}}
-    {{/each}}
+  <div class='submit'>
+    {{> storySubmit}} <!--the form to add a new story-->
   </div>
+  <div class="stories">
+    {{> stories}}
+  </div>
+</template>
+
+<template name="stories">
+  {{> pagesNav}}
+  {{> pages}}
+  {{> pagesNav}}
 </template>

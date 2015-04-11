@@ -1,15 +1,15 @@
-<template name="storyItem">
-  <div class="story">
-    <div class="story-content">
-      <h3>
-        <span class="author">{{author}}</span>
-        <span class="date"> {{localizedDateAndTime submitted}}</span>
-      </h3>
-      {{#if content}}
-      <hr>
-      <p><span class="pre" id="story-text">{{content}}</span>
-      </p>
-      {{/ if}}
+  <template name="storyItem">
+    <div class="story">
+      <div class="story-content">
+        <h3>
+          <span class="author">{{author}}</span>
+          <span class="date"> {{localizedDateAndTime submitted}}</span>
+        </h3>
+        {{#if content}}
+        <hr>
+        <p><span class="pre" id="story-text">{{content}}</span>
+        </p>
+        {{/ if}}
+      </div>
     </div>
-  </div>
-</template>
+  </template>

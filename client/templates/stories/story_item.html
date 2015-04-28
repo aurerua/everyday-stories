@@ -3,13 +3,10 @@
       <div class="story-content">
         <h3>
           <span class="author">{{author}}</span>
-          <span class="date"> {{localizedDateAndTime submitted}}</span>
+          <span class="date"> {{localizedDateAndTime createdAt}}</span>
         </h3>
-        {{#if content}}
         <hr>
-        <p><span class="pre" id="story-text">{{content}}</span>
-        </p>
-        {{/ if}}
+        <p><span class="pre" id="story-text">{{content}}</span></p>
       </div>
     </div>
   </template>

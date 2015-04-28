@@ -2,7 +2,21 @@
   <div class="container">
     {{> header}}
     <div id="main" class="row-fluid">
+      <div class="presentation">
+        <p>This web site is the first I've built using Meteor. 
+        It is a loose clone of <a href="http://everydaysexism.com/">everydaysexism.com</a> and it proved a good way to start playing around with Meteor. The book Discover Meteor has been, like for many other people, I noticed, a great resource. The Meteor community as a whole also made it
+        very easy and welcoming to start learning Meteor and the main functionalities have been rather easy to implement thanks to the following Meteor packages:
+          <ul>
+            <li>for Forms: aldeed:autoform,</li>
+            <li>for Pagination: alethes:pages,</li>
+            <li>for the reCAPTCHA: appshore:recaptcha,</li>
+            <li>and to pass data from autoform to the server, Server Session: matteodem:server-session.</li>
+          </ul>
+        </p>
+        <br>
+      </div>
       {{> yield}}
     </div>
+    {{> footer}}
   </div>
 </template>

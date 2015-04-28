@@ -1,10 +1,13 @@
 <template name="storySubmit">
-  <h1>Add your story</h1>
-    {{#autoForm collection="Stories" id="insertStoryForm" type="insert"}}
+  <h2>So what is your story? How did you build your first app with Meteor?</h2>
+    {{#autoForm collection="Stories" id="insertStoryForm" type="method" meteormethod="storyInsert"}}
     <fieldset>
       {{> afQuickField name='author'}}
       {{> afQuickField name='content' rows=6}}
     </fieldset>
+    <div class="form-group">
+      {{> reCAPTCHA}}
+    </div>
     <button type="submit" class="btn btn-primary">Save</button>
     {{/autoForm}}
 </template>

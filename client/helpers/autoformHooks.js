@@ -5,6 +5,9 @@ var storyHooks = {
     method: function(doc) { 
       // Save reCaptcha's response in a ServerSession variable.
       ServerSession.set('reCaptchaResponse', $('#g-recaptcha-response').val());
+      if(! doc.createdAt){
+        doc.createdAt = new Date();
+      } 
       return doc;
     }
   }

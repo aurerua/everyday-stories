@@ -20,6 +20,7 @@ deps@1.0.7
 ejson@1.0.6
 email@1.0.6
 fastclick@1.0.3
+fortawesome:fontawesome@4.3.0
 geojson-utils@1.0.3
 gwendall:session-json@0.1.7
 handlebars@1.0.3
@@ -59,6 +60,7 @@ mongo-livedata@1.0.8
 msavin:mongol@1.0.12
 observe-sequence@1.0.6
 ordered-dict@1.0.3
+peerlibrary:dimsum@0.1.8_6
 random@1.0.3
 reactive-dict@1.1.0
 reactive-var@1.0.5

@@ -1,12 +1,13 @@
-  <template name="storyItem">
-    <div class="story">
-      <div class="story-content">
-        <h3>
-          <span class="author">{{author}}</span>
-          <span class="date"> {{localizedDateAndTime createdAt}}</span>
-        </h3>
-        <hr>
-        <p><span class="pre" id="story-text">{{content}}</span></p>
-      </div>
+<template name="storyItem">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title clearfix">
+        <div class="author pull-left">{{author}}</div>
+        <div class="date  pull-right"> {{localizedDateAndTime createdAt}}</div>
+      </h3>
     </div>
-  </template>
+    <div class="panel-body">
+      <p><span class="pre" id="story-text">{{content}}</span></p>
+    </div>
+  </div>
+</template>

@@ -1,130 +1,82 @@
-/* Most of this file comes from the "Discover Meteor" book*/ 
-.grid-block, .main, .story {
-  background: #fff;
-  border-radius: 3px;
-  padding: 10px;
-  margin-bottom: 10px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
-
+html {
+  background: url(https://dl.dropboxusercontent.com/u/453719/PublicImages/ma-31738771.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
-  background: #eee;
-  color: #666666; }
-
-#main {
-  position: relative;
+  padding-top: 20px;
+  font-size: 16px;
+  font-family: "Open Sans", Arial, sans-serif;
+  background: transparent;
 }
-.page {
-  position: absolute;
-  top: 0px;
-  width: 100%;
+h1 {
+  font-weight: 900;
+  font-size: 55px;
+  text-align: center;
 }
-
-.navbar {
-  margin-bottom: 10px; }
-  /* line 32, ../sass/style.scss */
-  .navbar .navbar-inner {
-    border-radius: 0px 0px 3px 3px; }
-
-#spinner {
-  height: 300px; }
-
+.header p {
+  font-weight: 200;
+  font-size: 18px;
+  color: #222222;
+}
+.panel {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.margin-base-vertical {
+  margin: 30px 0;
+}
 .story {
   /* For modern browsers */
   /* For IE 6/7 (trigger hasLayout) */
   *zoom: 1;
   position: relative;
-  opacity: 1; }
-  .story:before, .story:after {
-    content: "";
-    display: table; }
-  .story:after {
-    clear: both; }
-  .story.invisible {
-    opacity: 0; }
-  .story.instant {
-    -webkit-transition: none;
-    -moz-transition: none;
-    -o-transition: none;
-    transition: none; }
-  .story.animate{
-    -webkit-transition: all 300ms 0ms;
-    -moz-transition: all 300ms 0ms ease-in;
-    -o-transition: all 300ms 0ms ease-in;
-    transition: all 300ms 0ms ease-in; }
-  .story .upvote {
-    display: block;
-    margin: 7px 12px 0 0;
-    float: left; }
-  .story .story-content {
-    float: left; }
-    .story .story-content h3 {
-      margin: 0;
-      line-height: 1.4;
-      font-size: 18px; }
-      .story .story-content h3 a {
-        display: inline-block;
-        margin-right: 5px; }
-      .story .story-content h3 span {
-        font-weight: normal;
-        font-size: 14px;
-        display: inline-block;
-        color: #aaaaaa; }
-    .story .story-content p {
-      margin: 0; }
-  .story .discuss {
-    display: block;
-    float: right;
-    margin-top: 7px; }
-
-.dropdown-menu span {
-  display: block;
-  padding: 3px 20px;
+  opacity: 1;
+}
+.story:before,
+.story:after {
+  content: "";
+  display: table;
+}
+.story:after {
   clear: both;
-  line-height: 20px;
-  color: #bbb;
-  white-space: nowrap; }
-
-.load-more {
-  display: block;
-  border-radius: 3px;
-  background: rgba(0, 0, 0, 0.05);
-  text-align: center;
-  height: 60px;
-  line-height: 60px;
-  margin-bottom: 10px; }
-  .load-more:hover {
-    text-decoration: none;
-    background: rgba(0, 0, 0, 0.1); }
-
+}
+.story .story-content {
+  float: left;
+}
+.story .story-content h3 {
+  margin: 0;
+  line-height: 1.4;
+  font-size: 18px;
+}
+.story .story-content h3 span {
+  font-weight: normal;
+  font-size: 14px;
+  display: inline-block;
+  color: #aaaaaa;
+}
+.story .story-content p {
+  margin: 0;
+}
+.stories {
+  margin-top: 14px;
+}
 .stories .spinner-container{
   position: relative;
   height: 100px;
 }
-
-.jumbotron{
-  text-align: center;
-}
-.jumbotron h2{
-  font-size: 60px;
-  font-weight: 100;
-}
-
-@-webkit-keyframes fadeOut {
-  0% {opacity: 0;}
-  10% {opacity: 1;}
-  90% {opacity: 1;}
-  100% {opacity: 0;}
-}
-
-@keyframes fadeOut {
-  0% {opacity: 0;}
-  10% {opacity: 1;}
-  90% {opacity: 1;}
-  100% {opacity: 0;}
-}
-
 .submit {
   margin-bottom: 10px;
+} 
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.date {
+  font-size: 13px;
+}
+.not-found p {
+  padding-bottom: 20px;
 }

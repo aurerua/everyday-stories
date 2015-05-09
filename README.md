@@ -3,7 +3,7 @@ Everyday Stories is a Meteor web site which enables people to post stories onlin
 anonymously, without them having to log in.
 
 In terms of functionalities (and thus the name) I built it as a loose clone of [everydaysexism.com](http://www.everydaysexism.com). 
-There is a demo at [http://meteorstories.meteor.com](http://meteorstories.meteor.com).
+There is a demo at [http://everydaystories.meteor.com/](http://everydaystories.meteor.com/).
 
 The main functionalities have been implemented using the following Meteor packages:
 

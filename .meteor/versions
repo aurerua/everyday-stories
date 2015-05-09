@@ -13,6 +13,7 @@ blaze-tools@1.0.3
 boilerplate-generator@1.0.3
 callback-hook@1.0.3
 check@1.0.5
+chfritz:easycron@0.0.3
 coffeescript@1.0.6
 dburles:mongo-collection-instances@0.3.3
 ddp@1.1.0

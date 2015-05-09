@@ -16,3 +16,11 @@ if (Stories.find().count() === 0) {
         });
     };
 };
+
+// Schedule resetting the stories at midnight everyday
+var resetStories = new Cron(function() {
+    Stories.remove({'createdAt': {'$gte': moment("1901", "YYYY").toDate()}});
+}, {
+    minute: 0,
+    hour: 0,
+});

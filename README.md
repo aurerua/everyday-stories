@@ -10,3 +10,4 @@ A demo can be found at [http://everydaystories.meteor.com/](http://everydaystori
 
 ##TODOs
 - Add an admin user who can remove stories if necessary
+- Improve layout for small devices

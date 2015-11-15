@@ -1,4 +1,7 @@
 # everyday-stories
+
+![Everyday Stories screenshot](https://www.dropbox.com/s/uz8xba8jz2cpy0s/everyday-stories.png?raw=1)
+
 Everyday Stories is a Meteor web site which enables people to post stories online
 anonymously, without them having to log in.
 
